@@ -1,8 +1,6 @@
-def check_psw(a):
-    psw = 'dfghfghg'
-    if a == psw:
-        print("True")
-    else:
-        print('False')
+def shrek_228(a):
+    c = (a-32) * 5 / 9
+    return c
 
-check_psw("fdkjbsdkljfgbsdbndfsndnsavbhjlsabvsjhcbjlsndbclskvb;ksadvnbvvfb")
+
+print(shrek_228(57))
